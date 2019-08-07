@@ -1,0 +1,83 @@
+
+<RelativeLayout
+    android:layout_height="match_parent"
+                android:layout_width="match_pattern"
+                android:background="#0000ff"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+<EditTest
+    android:id="@+id/numOne"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:hint="Enter first number" />
+
+    <EditTest
+        android:id="@+id/numTwo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter second number" />
+
+<Button
+    android:id="@+id/add_btn"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="Add"
+    android:textColor="#ff0000"
+    android:textSize="30dp"
+    android:Style="bold"
+    android:padding="10dp"
+    android:layout_marginTop="70dp"
+    android:layout_marginleft="20dp"
+    android:background="#00ff00">
+
+</Button>
+    <TestView
+        android:id="@+id/display_result"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+
+    <Button
+        android:id="@+id/sub_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Sub"
+        android:textColor="#ff0000"
+        android:textSize="30dp"
+        android:Style="bold"
+        android:padding="10dp"
+        android:layout_marginDown="140dp"
+        android:layout_marginleft="50dp"
+        android:background="#00ff00">
+
+    </Button>
+    <Button
+        android:id="@+id/mul_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Mul"
+        android:textColor="#ff0000"
+        android:textSize="30dp"
+        android:Style="bold"
+        android:padding="10dp"
+        android:layout_marginTop="2700dp"
+        android:layout_marginleft="80dp"
+        android:background="#00ff00">
+
+    </Button>
+    <Button
+        android:id="@+id/div_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Div"
+        android:textColor="#ff0000"
+        android:textSize="30dp"
+        android:Style="bold"
+        android:padding="10dp"
+        android:layout_marginTop="320dp"
+        android:layout_marginleft="100dp"
+        android:background="#00ff00">
+
+    </Button>
+
+</RelativeLayout>

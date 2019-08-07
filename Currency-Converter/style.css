@@ -1,0 +1,14 @@
+body {
+	background-image: url("image.jpg");
+	
+}
+
+.input-div {
+	text-align:center;
+}
+
+.input-div select {
+	
+	width:100px;
+	height: 30px;
+}
